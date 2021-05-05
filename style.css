@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Welcome {
+    position: absolute;
+    height: 800px;
+    z-index: 9;
+    color: coral;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#FFADAD 0%, #9BF6FF 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 17px;
+    max-width: 450px;
+    margin: 25px auto;
+    line-height: 1.3;
+}
+
+.parallex-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.links {
+    display: inline;
+    color: aquamarine;
+    padding-top: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: deeppink;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+article:hover {
+    color: aqua;
+}
+
+#Writting {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+    font-size: 20px;
+}
+
+#Contact {
+    background-color: burlywood;
+}
+
+#Contact iframe {
+    width: 100%;
+}
+
+.Contact_1 h3 {
+    display: inline;
+    color: black;
+    text-shadow: none;
+}
+
+.Contact_1 a {
+    color: black;
+    text-shadow: none;
+}
+
+input {
+    background: grey;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999
+}
